@@ -3,7 +3,8 @@
 Repository (Repo)
 Branch (A repo contain many branches depend on the activity we make, the default branch is master)
 Conflict
-
+Local (all things that locates on your computer)
+Remote (the things that locate on other server)
 
 # Commands
 
@@ -21,3 +22,4 @@ Conflict
 - git checkout {branch_name} (switch to the branch named branch_name)
 - git merge {branch_name} (Lưu ý nếu ta commit file trong branch nào thì khi chuyển sang branch khác file đó sẽ không xuất hiện, muốn file thuộc branch này xuất hiện tại branch khác thì tại branch đích ta phải sử dụng git merge để ghép 2 branch lại)
 - git branch -d {branch_name} (delete branch)
+- git push (push local repo to remote repo in GitHub)
